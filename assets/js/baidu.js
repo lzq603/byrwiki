@@ -713,7 +713,7 @@ var BaiduSuggestion = (function() {
                     }
                     var T = O("script");
                     T.setAttribute("charset", "gbk");
-                    T.src = "http://unionsug.baidu.com/su?wd=" + encodeURIComponent(U) + "&p=3&cb=BaiduSuggestion.callbacks.give" + S + "&t=" + V;
+                    T.src = "https://unionsug.baidu.com/su?wd=" + encodeURIComponent(U) + "&p=3&cb=BaiduSuggestion.callbacks.give" + S + "&t=" + V;
                     T.id = "bdSug_script";
                     document.body.appendChild(T)
                 },
